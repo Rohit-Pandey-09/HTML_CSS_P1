@@ -1,0 +1,154 @@
+*{
+    margin: 5px;
+    padding: 0;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #140b0bec;
+}
+
+body {
+    overflow: scroll;
+    height: 100vh;
+    width: 100wh;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+li {
+    list-style: none;
+    cursor: pointer;
+}
+a{
+   text-decoration: none;
+
+}
+button{
+    background-color: rgb(18, 155, 155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight: 600;
+    width: fit-content;
+}
+button:hover {
+     background-color: white;
+     color: rgb(18, 155, 155) ;
+     border: 1px solid rgb(18, 155, 155);
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+nav .logo{
+    font-weight: 700;
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.search-field{
+    display: flex;
+    gap: 35px;
+
+}
+input{
+    padding: 4px 10px;
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+.left-hero-section h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.left-hero-section h1 span{
+    color: rgb(18, 155, 155);
+    font-weight: 900;
+    font-size: 2.5 rem;
+}
+.left-hero-section p {
+    font-weight: 500;
+}
+.left-hero-section p span{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(18, 155, 155);
+}
+.right-hero-section{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.right-hero-section-buttons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.right-hero-section img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+footer{
+    display: flex;
+    align-items: 20px 0;
+    justify-content: space-around;
+}
+footer p{
+    font-weight: 600;
+}
+footer ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.dp:hover{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    transition-duration: 0.25s;
+    
+}
+.github:hover{
+    height: 50px;
+    width: 50px;
+    color: red;
+    transition-duration: 0.25s;
+    
+}
+.instagram:hover{
+    height: 50px;
+    width: 50px;
+    transition-duration: 0.25s;
+}
+.linkedin:hover{
+    height: 50px;
+    width: 50px;
+    transition-duration: 0.25s;
+}
+.facebook:hover{
+    height: 50px;
+    width: 50px;
+    transition-duration: 0.25s;
+}
